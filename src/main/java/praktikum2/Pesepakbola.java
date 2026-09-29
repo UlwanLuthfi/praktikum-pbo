@@ -3,21 +3,17 @@ package praktikum2;
 public class Pesepakbola {
   public static void main(String[] args) {
 
-    String[][] pemain_timnas = {
-        { "Emil Audero", "Rayo Vallecano(SPA)" },
-        { "Jay Idzes", "Sassuolo(ITA)" },
-        { "Calvin Verdonk", "LOSC Lille(FRA)" },
-        { "Dean James", "Go Ahead Eagles(NED)" },
-        { "Kevin Diks", "Monchengladbach(GER)" },
-        { "Luke Vickery", "Macarthur FC (AUST)" },
-        { "Ole Romeny", "Fortuna Sittard (NED)" },
+    String[][] player = {
+        { "Ronaldo", "Arab" },
+        { "Haaland", "Norway" },
+        { "Messi", "Argentina" },
+        { "Mbappe", "Prancis" },
     };
 
-    System.out.println("Daftar Pemain Timnas:");
+    System.out.println("Daftar Pemain Bola:");
 
-    for (int i = 0; i < pemain_timnas.length; i++) {
-      System.out.println(pemain_timnas[i][0] + "\t: " +
-          pemain_timnas[i][1]);
+    for (int i = 0; i < player.length; i++) {
+      System.out.println("Pemain: " + player[i][0] + ", Negara: " + player[i][1]);
     }
 
   }
