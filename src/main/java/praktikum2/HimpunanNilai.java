@@ -3,7 +3,7 @@ package praktikum2;
 public class HimpunanNilai {
   public static void main(String[] args) {
 
-    int[] nilai = { 80, 85, 90, 75, 88 };
+    int[] nilai = { 70, 80, 87, 76, 90, 100 };
     System.out.println("Jumlah elemen: " + nilai.length);
 
     // Menampilkan semua elemen dengan for
@@ -18,6 +18,6 @@ public class HimpunanNilai {
     }
 
     double rata = (double) total / nilai.length;
-    System.out.println("Rata-rata: " + rata);
+    System.out.printf("Rata-rata: %.2f%n", rata);
   }
 }
